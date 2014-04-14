@@ -76,7 +76,7 @@ def prepare_dataset(filename_dataset, retrieve_query_subtype):
                             , query))
     return dataset
 
-dataset_comet = prepare_dataset("dataset/2013-08-29_noise_POL.fasta.csv", retrieve_query_subtype_comet)
+dataset_comet = prepare_dataset("dataset/COMET/2013-08-29_noise_POL.fasta.csv", retrieve_query_subtype_comet)
 dataset_scueal = prepare_dataset("dataset/SCUEAL/2013-08-29_noise_POL_SCUEAL.csv", retrieve_query_subtype_scueal)
 dataset_rega2 = prepare_dataset("dataset/REGAv2/all.csv", retrieve_query_subtype_rega2)
 
